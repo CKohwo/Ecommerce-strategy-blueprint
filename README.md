@@ -84,15 +84,47 @@ To extract, analyze, and visualize insights from Amazon sales data, providing cl
 3. Launch jupyter notebook
    jupyter notebook 
 
+---
 
-🧾 Deliverables
-Clean and annotated Jupyter Notebook (.ipynb)
+## 🧾 Deliverables
+- Clean and annotated Jupyter Notebook (.ipynb)
 
-CSV-cleaned dataset (optional)
+- CSV-cleaned dataset (optional)
 
-Static charts exported as .png
+- Static charts exported as .png
 
-Optional report PDF (for client-ready submission)
+- Optional report PDF (for client-ready submission)
 
-GitHub repository with proper version control
+- GitHub repository with proper version control
   
+---
+
+📄 Project Status
+✅ Completed initial data wrangling
+✅ Visualizations and dashboards finalized
+🔄 Currently drafting an executive summary for business users
+
+---
+
+💡 Future Improvements
+- Convert into a Streamlit or Dash interactive dashboard
+
+- Add predictive modeling (e.g. sales forecasting)
+
+- Automate data refresh and report generation
+
+---
+
+🧑‍💼 About the Developer
+Charles – Mechanical Engineer, Data Scientist & python developer focused on turning raw data into clear, actionable business intelligence.
+
+📫 LinkedIn
+
+💼 Portfolio (Coming Soon)
+
+🧠 Changing the world through mastery in Python + Data Science + Algorithmic thinking
+
+---
+
+📜 License
+This project is licensed under the MIT License. See the LICENSE file for more information.
