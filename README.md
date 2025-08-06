@@ -75,3 +75,24 @@ To extract, analyze, and visualize insights from Amazon sales data, providing cl
    ```bash
    git clone https://github.com/CKohwo/amazon-sales-analysis.git
    cd amazon-sales-analysis
+
+2. Set up a virtual environment
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   pip install -r requirements.txt
+
+3. Launch jupyter notebook
+   jupyter notebook 
+
+
+🧾 Deliverables
+Clean and annotated Jupyter Notebook (.ipynb)
+
+CSV-cleaned dataset (optional)
+
+Static charts exported as .png
+
+Optional report PDF (for client-ready submission)
+
+GitHub repository with proper version control
+  
