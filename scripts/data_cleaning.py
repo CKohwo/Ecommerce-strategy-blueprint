@@ -1,5 +1,6 @@
 import pandas as pd
-from pathlib import path
+from pathlib import Path
+
 
 #Making sure the dataframe is logically correct, actual price must be greater or equal to discounted price
 def price_check(df, issues):
@@ -8,17 +9,22 @@ def price_check(df, issues):
         issues["invalid_price"] = invalid_rows
     return issues    
 
-#Checking for logical error in the ratings, rating must not be lower than 0 
+
 def ratings_check(df, issues):
-    invalid_neg = df[df["ratings"] < 0]
-    if not invalid_neg.empty:
-        issues["rating_below_0"] = invalid_neg
-         
-#Checking for logical error in the ratings, rating must not exceed 5  
-    invalid_high = df[df["ratings"] > 5]
-    if not invalid_high.empty:
-        issues["ratings_above_5"] = invalid_high   
+
+#Checking for logical error in the ratings, rating must not exceed 5      
+    invalid_ratings = df[df["rating"] > 5]
+    if not invalid_ratings.empty:
+        issues["ratings_above_5"] = invalid_ratings
+
+#Checking for logical error in the ratings, rating must not be lower than 0       
+    invalid_neg_ratings = df[df["rating"] < 0]
+    if not invalid_neg_ratings.empty:
+        issues["ratnigs_below_0"] = invalid_neg_ratings
     return issues    
+         
+  
+      
 
 # checking for unrealistic discount(>90%) in the dataframe      
 def check_discount(df, issues):
@@ -36,7 +42,9 @@ def check_duplicates(df, issues):
     return issues           
 
 
+
 def data_cleaning(df, export_path = None ):
+     
     issues = {}
     issues = price_check(df, issues)
     issues = ratings_check(df, issues)
