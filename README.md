@@ -106,12 +106,14 @@ To extract, analyze, and visualize insights from Amazon sales data, providing cl
 
 ---
 
-💡 Future Improvements
-- Convert into a Streamlit or Dash interactive dashboard
+💡 Road Map  
+- V1.0 EDA - done ✅ 
 
-- Add predictive modeling (e.g. sales forecasting)
+- Convert into a Streamlit or Dash interactive dashboard - next
 
-- Automate data refresh and report generation
+- Add predictive modeling (e.g. sales forecasting) - planned
+
+- Automate data refresh and report generation - coming soon
 
 ---
 
