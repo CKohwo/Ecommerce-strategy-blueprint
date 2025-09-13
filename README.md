@@ -1,27 +1,23 @@
 # 🛍️ Amazon Sales Data Analysis
 
-A complete exploratory data analysis (EDA) and visualization project built with Python and Pandas, based on a publicly available Amazon Sales dataset. This project simulates a real-world request for sales reporting, actionable insights, and visual storytelling — designed for business owners, e-commerce analysts, and early-stage founders seeking better data-driven decision-making.
+A complete exploratory data analysis (EDA) and visualization project built with Python and Pandas, based on a publicly available Amazon Sales dataset. This project simulates a real-world analytics request: surfacing revenue drivers, discount effectiveness, and customer sentiment trends, visual storytelling — designed for business owners, e-commerce analysts, and early-stage founders seeking better data-driven decision-making. 
 
 ---
 
 ## 📌 Objective
 
-To extract, analyze, and visualize insights from Amazon sales data, providing clear summaries and visual outputs that could be directly handed off to a business stakeholder.
-
+To extract, analyze, and visualize insights from Amazon product sales data, focusing on pricing strategies, discount structures, and customer sentiment — providing clear, data-driven insights that can guide e-commerce strategy.
 ---
 
 ## 📊 Dataset Overview
 
 - **Source:** [Amazon Sales Dataset on Kaggle](https://www.kaggle.com/datasets/karkavelrajaj/amazon-sales-dataset)
 - **Size:** ~17,000 records
-- **Features Include:**
-  - Product names and categories
-  - Order IDs and shipping details
-  - Sales revenue and profit metrics
-  - Order status (delivered, canceled, etc.)
-  - Ratings and Ratings count
-  - Review contents, review title
-
+- **Features include:** 
+- Product details: product_name, category, about_product, img_linK
+- Pricing & discounts: actual_price, discounted_price, discount_percentage, price_difference, discount_ratio, ultra_discount, price_tier, discount_tier.
+- Customer feedback: rating, rating_count, review_title, review_content, customer_sentiment, pos_word, neg_word
+- Identifiers: review_id, user_name
 ---
 
 ## 🧰 Tools & Technologies
@@ -38,35 +34,34 @@ To extract, analyze, and visualize insights from Amazon sales data, providing cl
 
 ## 🔍 Analysis Highlights
 
-- ✅ **Top-selling product categories**
-- ✅ **worst performing product categories**
-- ✅ **Revenue and profit trend over time**
-- ✅ **cross-analysis on relationship between price tier & customer sentiments**
-- ✅ **deep dive on discount rates satisfaction score**
-- ✅ **Delivery delays and patterns**
-- ✅ **Insights into customer behavior and product mix**
-
+- ✅ Top-selling & underperforming categories (by ratings, rating count & sentiment)
+- ✅ Price tier analysis — which tiers capture the highest satisfaction and engagement
+- ✅ Discount effectiveness — do deeper discounts correlate with higher ratings or better sentiment?
+- ✅ Customer sentiment vs. rating alignment — does textual sentiment reflect the numeric score?
+- ✅ “Ultra-discount” products deep dive — who uses this lever effectively?
+- ✅ Sentiment drivers — positive/negative keyword patterns in reviews
 ---
 
 ## 📈 Key Visuals
 
-> *(Screenshots or charts from my output should be added here once available — use Jupyter or `matplotlib.pyplot.savefig()` to export)*
-
-- Bar plots of top-selling items
-- Time-series revenue graph
-- Heatmap of country-wise sales
-- Profitability by product category
-
+- Bar plots of top categories by rating count
+- Distribution plots of discounts across categories
+- Sentiment breakdown (positive, negative, mixed)
+- Heatmap of discount tiers vs customer sentiment
+- Boxplot: actual vs discounted prices by category
+- Word cloud (optional) for most common positive/negative review terms
 ---
 
 ## 🧠 Insights & Business Use-Cases
 
 | Insight                                  | Value for Client                                    |
 |------------------------------------------|-----------------------------------------------------|
-| Which products drive the most profit?    | Optimize marketing spend and inventory restocking   |
-| Which regions underperform in sales?     | Targeted ad campaigns or pricing adjustments        |
-| How fast are orders being shipped?       | Measure operational efficiency and SLA adherence    |
-| Are there seasonal patterns in sales?    | Plan promotions, inventory, and cash flow           |
+| Which categories dominate customer attention (ratings + reviews)?    | Helps allocate marketing budget and optimize inventory.   |
+| How do discount tiers impact customer satisfaction?     | Guides pricing & promotional strategies.        |
+| Are high discounts always linked to better reviews?       | Identifies when discounting is wasteful vs effective.    |
+| Which products underperform despite high discounts?    | Flags inefficiencies in pricing strategy.| 
+| What words/phrases define positive vs negative experiences?	 | Helps in branding, ad copy, and product description tuning.|
+
 
 ---
 
@@ -90,13 +85,15 @@ To extract, analyze, and visualize insights from Amazon sales data, providing cl
 ## 🧾 Deliverables
 - Clean and annotated Jupyter Notebook (.ipynb)
 
-- CSV-cleaned dataset (optional)
+- CSV-cleaned dataset (with engineered features, such as - price_tier, discount_tier, customer_sentiment)
 
 - Static charts exported as .png
 
 - Optional report PDF (for client-ready submission)
 
-- GitHub repository with proper version control
+- Executive summary of insights in notebook or PDF
+
+- GitHub repository with reproducible code
   
 ---
 
@@ -107,15 +104,13 @@ To extract, analyze, and visualize insights from Amazon sales data, providing cl
 
 ---
 
-💡 Road Map  
-- V1.0 EDA - done ✅ 
+🚀 **Roadmap**
 
-- Convert into a Streamlit or Dash interactive dashboard - next
+- V1.0 (Current): Exploratory analysis + business insights
 
-- Add predictive modeling (e.g. sales forecasting) - planned
+- V1.1: Convert to interactive dashboard (Streamlit/Dash)
 
-- Automate data refresh and report generation - coming soon
-
+- V2.0: Automate data ingestion + reporting pipelines
 ---
 
 🧑‍💼 About the Developer
