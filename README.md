@@ -18,9 +18,9 @@ To extract, analyze, and visualize insights from Amazon sales data, providing cl
   - Product names and categories
   - Order IDs and shipping details
   - Sales revenue and profit metrics
-  - Customer country and region
   - Order status (delivered, canceled, etc.)
-  - Dates for order and shipment
+  - Ratings and Ratings count
+  - Review contents, review title
 
 ---
 
@@ -39,9 +39,10 @@ To extract, analyze, and visualize insights from Amazon sales data, providing cl
 ## 🔍 Analysis Highlights
 
 - ✅ **Top-selling product categories**
+- ✅ **worst performing product categories**
 - ✅ **Revenue and profit trend over time**
-- ✅ **Sales heatmap by country/region**
-- ✅ **Order cancellation rate analysis**
+- ✅ **cross-analysis on relationship between price tier & customer sentiments**
+- ✅ **deep dive on discount rates satisfaction score**
 - ✅ **Delivery delays and patterns**
 - ✅ **Insights into customer behavior and product mix**
 
