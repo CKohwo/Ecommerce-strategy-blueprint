@@ -1,4 +1,4 @@
-# 🛍️ Amazon Sales Data Analysis
+# 🛍️ An Analytical Blueprint for E-commerce Growth: A Methodological Case Study with Strategic Applications for the Nigerian Market. 
 
 A complete exploratory data analysis (EDA) and visualization project built with Python and Pandas, based on a publicly available Amazon Sales dataset. This project simulates a real-world analytics request: surfacing revenue drivers, discount effectiveness, and customer sentiment trends, visual storytelling — designed for business owners, e-commerce analysts, and early-stage founders seeking better data-driven decision-making. 
 
