@@ -160,5 +160,6 @@ I am a Data Scientist and Python Developer passionate about turning complex data
 
 ---
 
-📜 License
-This project is licensed under the MIT License. See the LICENSE file for more information.
+### 📜 License
+
+This project is licensed under the MIT License. See the `LICENSE` file for more information.
