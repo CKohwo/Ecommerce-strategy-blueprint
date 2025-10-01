@@ -6,7 +6,7 @@ In the hyper-competitive world of e-commerce, leaders need more than just data; 
 
 Using a large-scale e-commerce dataset as a foundation, this project constructs a reusable framework for answering the most critical questions facing platforms like Jumia or Konga today: *Which brands build loyalty? Which categories drive growth? And is our discount strategy actually working?*
 
-**[➡️ View the Final PDF Report Here](reports/E-commerce Strategy Blueprint.pdf)** ---
+**[➡️ View the Final PDF Report Here](reports/Ecommerce-Strategy-Blueprint.pdf)** ---
 
 ---
  
