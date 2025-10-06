@@ -371,3 +371,7 @@ with ultra_tab:
             As you might observe from the data, only two brands implemented such absurd discounts. 
             This forces me to believe that the ultra_discount model is a rare one and only used to clear warehouses and not a promotional/marketing strategy
     """)  
+
+
+st.markdown("---")
+st.caption("Built by Charles Onokohwomo — Data Strategist & Engineer | [GitHub](https://github.com/CKohwo) | [LinkedIn](www.linkedin.com/in/charles-onokohwomo)") 
