@@ -1,0 +1,36 @@
+[theme]
+base = "dark"
+
+# Professional Color Palette
+primaryColor = "#4A90E2"        # Crisp blue for primary actions
+backgroundColor = "#0E1117"      # Deep dark background
+secondaryBackgroundColor = "#262730" # Slightly lighter for contrast
+textColor = "#FAFAFA"            # Clean white for text
+
+# Widget Styling
+widgetBackgroundColor = "#262730"
+widgetBorderColor = "#4A90E2"
+showWidgetBorder = true
+borderRadius = 8
+borderWidth = 1
+
+# Dataframes & Tables
+dataframeHeaderBackgroundColor = "#1A1D23"
+dataframeCellBackgroundColor = "#262730"
+dataframeHeaderTextColor = "#4A90E2"
+dataframeCellTextColor = "#FAFAFA"
+
+# Typography
+font = "Inter"
+baseFontSize = 16
+baseFontWeight = 400
+
+# Additional Professional Touches
+buttonFontWeight = 600
+inputFontWeight = 400
+labelFontWeight = 500
+
+[[theme.fontFaces]]
+family = "Inter"
+style = "normal"
+weight = "400 600"
