@@ -132,7 +132,12 @@ Follow these steps to set up the project environment and run the analysis notebo
             └── price_sentiment.csv
             └── ultra_disc_summary.csv
     ├── reports/
-    │   └── Eccomerce-strategy-blueprint.pdf                 # Final PDF business report
+    │   └── Eccomerce-strategy-blueprint.pdf     # Final PDF business report
+    ├── scripts/
+    │   └── __init__.py
+    │   └── data_cleaning.py
+    │   └── utils.py
+    │── app.py                 # Dashboard Application script 
     ├── requirements.txt                         # Project dependencies
     └── README.md                                # You are here!
 
