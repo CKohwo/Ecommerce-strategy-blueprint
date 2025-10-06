@@ -58,11 +58,11 @@ This blueprint was designed to provide clear answers to crucial business questio
 | **Where are the hidden risks in our product catalog?** | Flags products and brands with consistently poor sentiment, suggesting them for re-evaluation or delisting.|
  
 ---
-**Live Dashboard:** [ckohwo-ecommerce-growth-blueprint.streamlit.app](https://ckohwo-ecommerce-growth-blueprint.streamlit.app)
+### 💡 Live Dashboard:  [ckohwo-ecommerce-growth-blueprint.streamlit.app](https://ckohwo-ecommerce-growth-blueprint.streamlit.app)
 
 An interactive, executive-level analytics dashboard built with **Streamlit** and **Plotly** — designed to decode the patterns behind brand performance, category efficiency, and price-discount dynamics in the E-commerce global & local landscape.
 
-💡 **Highlights**
+**Highlights**
 - Interactive visualization of brand, category, and pricing insights  
 - Cached performance for rapid load times  
 - Built using a modular data pipeline from raw to insight  
