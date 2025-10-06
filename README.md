@@ -1,6 +1,6 @@
 # 🛍️ An Analytical Blueprint for E-commerce Growth
 
-### A Methodological Case Study with Strategic Applications for the Nigerian Market
+### A Methodological Case Study with Strategic Applications for the E-commerce Global and Local Market
 
 In the hyper-competitive world of e-commerce, leaders need more than just data; they need a repeatable strategy. This repository contains a complete **analytical blueprint** built in Python, designed to turn raw product and sales data into actionable business intelligence.
 
