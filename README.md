@@ -57,7 +57,17 @@ This blueprint was designed to provide clear answers to crucial business questio
 | **Is relying on simply high-traffic metric healthy?** | Reveals potential mismatches between high sales volume and low customer satisfaction, flagging the need for better product curation. | 
 | **Where are the hidden risks in our product catalog?** | Flags products and brands with consistently poor sentiment, suggesting them for re-evaluation or delisting.|
  
----  
+---
+**Live Dashboard:** [ckohwo-ecommerce-growth-blueprint.streamlit.app](https://ckohwo-ecommerce-growth-blueprint.streamlit.app)
+
+An interactive, executive-level analytics dashboard built with **Streamlit** and **Plotly** — designed to decode the patterns behind brand performance, category efficiency, and price-discount dynamics in the E-commerce global & local landscape.
+
+💡 **Highlights**
+- Interactive visualization of brand, category, and pricing insights  
+- Cached performance for rapid load times  
+- Built using a modular data pipeline from raw to insight  
+
+---
  
 ### 🚀 Getting Started
 
@@ -91,6 +101,11 @@ Follow these steps to set up the project environment and run the analysis notebo
     jupyter notebook
     ```
 
+5. **Live dashboard application:**
+    ```sh
+    [ckohwo-ecommerce-growth-blueprint.streamlit.app](https://ckohwo-ecommerce-growth-blueprint.streamlit.app)
+    ```
+  
 ---
 
 ### 🗂️ Project Structure
